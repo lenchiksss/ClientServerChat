@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "ClientServerChat\Client.csproj", "{A985D426-853A-4DEA-A788-E9D1102EFCCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{5E57D43C-6071-4727-AA89-00804B02D737}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Share", "Share\Share.shproj", "{5971A454-A3CE-4D50-B610-C98796885253}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A985D426-853A-4DEA-A788-E9D1102EFCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A985D426-853A-4DEA-A788-E9D1102EFCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A985D426-853A-4DEA-A788-E9D1102EFCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A985D426-853A-4DEA-A788-E9D1102EFCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E57D43C-6071-4727-AA89-00804B02D737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E57D43C-6071-4727-AA89-00804B02D737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E57D43C-6071-4727-AA89-00804B02D737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E57D43C-6071-4727-AA89-00804B02D737}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4E169FB-D826-44C4-8096-47762459B669}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Share\Share.projitems*{5971a454-a3ce-4d50-b610-c98796885253}*SharedItemsImports = 13
+		Share\Share.projitems*{5e57d43c-6071-4727-aa89-00804b02d737}*SharedItemsImports = 5
+		Share\Share.projitems*{a985d426-853a-4dea-a788-e9d1102efccd}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
